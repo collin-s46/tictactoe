@@ -1,0 +1,53 @@
+body {
+    background-color: rgba(0, 0, 0, 0.212);
+}
+
+.cell {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    box-shadow: 0 0 0 2px black;
+    line-height: 100px;
+    font-size: 70px;
+    cursor: pointer;
+    border-radius: 1px;
+    background-color: rgb(226, 225, 225);
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+}
+.cell:hover {
+    background-color: rgb(146, 145, 145);
+}
+.cell:active{
+    background-color: rgb(226, 226, 226);
+}
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+#container {
+    text-align: center;
+    margin-top: 10%;
+}
+h1 {
+    font-family: "Roboto Mono", monospace;
+}
+#restartBtn {
+    background-color: rgba(255, 0, 0, 0.37);
+    border: solid 1px black;
+    border-radius: 3px;
+
+}
+#restartBtn:active {
+    background-color: rgba(255, 0, 0, 0.733);
+}
+
